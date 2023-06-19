@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="4.0">
+
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>	
+	   	<servlet-name>InicializaServlet</servlet-name>
+	    <servlet-class>com.portaria.servlet.InicializaServlet</servlet-class>		    
+	</servlet>
+	
+	<!-- <servlet-mapping>
+	    <servlet-name>InicializaServlet</servlet-name>
+	    <url-pattern>/oi</url-pattern>
+	</servlet-mapping>  -->
+</web-app>
